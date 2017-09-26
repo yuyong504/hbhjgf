@@ -1,0 +1,283 @@
+/* CSS */
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:"microsoft yahei",Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	line-height:20px;
+	color:#000000;
+}
+form,ul,li,p,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,p,i,em {margin:0;padding:0;border:0px;}
+input,select {font-size:12px;vertical-align:absmiddle; }
+img,div {border:0;padding:0px; margin:0px;}
+ul,li{ list-style-type:none; padding:0; margin:0;}
+em{ font-style:normal}
+a { color:#000000; text-decoration:none;}
+a:hover {color:#ff0000;text-decoration:underline;}
+sup{ font-size:9px; font-family:Arial, Helvetica, sans-serif;}
+.cl:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; } 
+.cl { zoom: 1; }
+.clear{ clear:both;}
+.main{ width:1200px; margin:0px auto;}
+.content{ width:1200px; margin:0px auto;}
+.l{ float: left;}
+.r{ float:right;}
+a img{ border:0px;}
+/* font style*/
+a.link1{ color:#ff0000; }
+a.link1:hover{ color:#ff0000;}
+.fontRedB{
+	font-weight:bold;
+	color:#ff0000;
+	font-size: 24px;
+}
+.fontR1{ color:#ff0000;}
+.font-s14{ font-size: 14px;}
+.font-s16{ font-size: 16px;}
+.color1{ color:#737373;}
+/* header */
+.header{ margin:0px auto; background-color: #FFFFFF;}
+.header .hm{ width:1200px; height: 95px; background: url("../img/header.jpg"/*tpa=http://www.qdas168.com/img/header.jpg*/) no-repeat 0 0; margin:0px auto; position: relative; }
+.header .hm p{ text-align: right; padding: 40px 23px 0 0; font-size: 12px; color: #fff7be;}
+.header .hm p a{color: #fff7be;}
+.nav{ position:relative; z-index:9; height: 52px; background:#007dc6;}
+.nav_m{ position:relative; z-index:9; height: 69px; width:1230px; margin:0px auto;}
+.nav_m ul{ padding-left: 0px;}
+.nav_m li{ margin:0px 0px; width:100px; height:52px; padding: 0; float: left; position: relative;}
+.nav_m li a.btn{ display:block; height:52px; text-align:center; color: #FFFFFF; font-size: 14px; font-weight: bold; line-height: 52px; }
+.nav_m li a.btn:hover{ background-color: #f15922; color: #FFFFFF; text-decoration:none;}
+.nav_m li.on a.btn{ background-color: #f15922; color: #FFFFFF; text-decoration:none;}
+.nav-sub{ height: auto; position:absolute; z-index:11; top:52px; left:0; background-color: #ffffff; display:none; }
+.nav_m li ul.nav-sub{ padding: 0;}
+.nav_m li ul.nav-sub li{
+	display: block;
+	line-height: 64px;
+	height: 64px;
+	float: left;
+	text-align: center;
+	margin: 0;
+}
+.nav_m li ul.nav-sub li em{ display: block; text-align: center; padding: 5px 0;}
+.nav_m li ul.nav-sub li em img{ display: block; margin: 0 auto;}
+.nav_m li ul.nav-sub li span{ display: block;text-align: center; line-height: 30px; padding: 10px 0 10px 0;}
+.nav_m li ul.nav-sub li a{ display: block; text-align: center; line-height:64px; color:#fff; font-size:12px; color: #000000; font-weight: normal;}
+.nav_m li ul.nav-sub li a:hover{ color:#000; text-decoration:none; background-color: #c4c4c4;}
+.nav_m li .sub2{ width: 732px;}
+.nav_m li.sub_cp{ position: static;}
+.nav_m li.sub_cp .nav-sub{ width: 100%;}
+.nav_m li.sub_cp .nav-sub li{ height: auto; width: 122px;}
+/*next button*/
+/*pager links hover and active states*/
+.bx-pager .pager-active,
+.bx-pager a:hover {
+	background-color:#FFFFFF;
+	display: block;
+}
+/*pager wrapper*/
+.bx-pager {
+	text-align:center;
+	padding-top: 0px;
+	font-size:12px;
+	color:#666;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	width: 120px; overflow: hidden;
+	margin: 0 0 0 -40px;
+}
+/*pager links*/
+.bx-pager a {
+	margin-right:7px;
+	color: #fff;
+	font-size: 0;
+	zoom:1;
+	background-color:#007dc6;
+	text-indent: -9999px;
+	display: block; 
+	width: 13px; height: 13px;
+	float: left;
+	border-radius: 100%;
+}
+.ban{ text-align:center; height:598px; position:relative; z-index:1; overflow:hidden;}
+.ban .bannerpic{ text-align:center; width:100%;}
+.ban .bannerpic li{ float:left; height:598px; width:100%;}
+.ban .bannerpic li .pic1{ background:url("../img/ban1.jpg"/*tpa=http://www.qdas168.com/img/ban1.jpg*/) no-repeat center top; background-size: cover; height:598px;}
+.ban .bannerpic li .pic2{ background:url("../img/ban2.jpg"/*tpa=http://www.qdas168.com/img/ban2.jpg*/) no-repeat center top; background-size: cover; height:598px;}
+
+.nyban{ text-align:center; height:350px; position:relative; z-index:1; overflow:hidden;}
+.nyban .bannerpic li{ float:left; height:350px; width:100%;}
+.nyban .bannerpic li .pic1{ background:url("../img/nyban1.jpg"/*tpa=http://www.qdas168.com/img/nyban1.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic2{ background:url("../img/nyban2.jpg"/*tpa=http://www.qdas168.com/img/nyban2.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic3{ background:url("../img/nyban3.jpg"/*tpa=http://www.qdas168.com/img/nyban3.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic4{ background:url("../img/nyban4.jpg"/*tpa=http://www.qdas168.com/img/nyban4.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic5{ background:url("../img/nyban5.jpg"/*tpa=http://www.qdas168.com/img/nyban5.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic6{ background:url("../img/nyban6.jpg"/*tpa=http://www.qdas168.com/img/nyban6.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic7{ background:url("../img/nyban7.jpg"/*tpa=http://www.qdas168.com/img/nyban7.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic8{ background:url("../img/nyban8.jpg"/*tpa=http://www.qdas168.com/img/nyban8.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic9{ background:url("../img/nyban9.jpg"/*tpa=http://www.qdas168.com/img/nyban9.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic10{ background:url("../img/nyban10.jpg"/*tpa=http://www.qdas168.com/img/nyban10.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic11{ background:url("../img/nyban11.jpg"/*tpa=http://www.qdas168.com/img/nyban11.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic12{ background:url("../img/nyban12.jpg"/*tpa=http://www.qdas168.com/img/nyban12.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic13{ background:url("../img/nyban13.jpg"/*tpa=http://www.qdas168.com/img/nyban13.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic14{ background:url("../img/nyban14.jpg"/*tpa=http://www.qdas168.com/img/nyban14.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic15{ background:url("../img/nyban15.jpg"/*tpa=http://www.qdas168.com/img/nyban15.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic16{ background:url("../img/nyban16.jpg"/*tpa=http://www.qdas168.com/img/nyban16.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic17{ background:url("../img/nyban17.jpg"/*tpa=http://www.qdas168.com/img/nyban17.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic18{ background:url("../img/nyban18.jpg"/*tpa=http://www.qdas168.com/img/nyban18.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic19{ background:url("../img/nyban19.jpg"/*tpa=http://www.qdas168.com/img/nyban19.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+.nyban .bannerpic li .pic20{ background:url("../img/nyban20.jpg"/*tpa=http://www.qdas168.com/img/nyban20.jpg*/) no-repeat center top; height:350px; background-size:cover;}
+
+/*footer*/
+.footer{ margin-top: 30px;}
+.foot-ly{ background-color: #f15922; padding: 0; position:fixed;width:100%;left:0;bottom:0;z-index:99;}
+.foot-lybg{
+	background: url("../img/foot-lybg.jpg"/*tpa=http://www.qdas168.com/img/foot-lybg.jpg*/) no-repeat 0 0;
+	height: 80px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot-lybg .lycon{
+	padding: 22px 0 0 610px;
+}
+.foot-lybg .col{ float:left; margin-right: 15px; font-size: 14px; color: #000; line-height: 44px;}
+.foot-lybg .col ul li{ }
+.foot-lybg .col ul li label{ float:left; font-size: 14px; color: #006003; line-height: 26px;}
+.foot-lybg .col ul li input[type=text]{ float:left; width: 165px; font-size: 18px; height: 44px; line-height: 44px; background-color: #ffffff; border: none; padding: 0 0px 0 20px; color: #333;}
+.foot-lybg .col ul li textarea{ width: 335px; height: 64px;background-color: #ffffff; border: none; padding: 0 5px; color: #333; resize: none;}
+.foot-lybg .col ul li .btn-submit{ display: block; width: 117px; height: 44px; border: none; cursor: pointer; text-align: center; background-color: #9c0000; color: #ffff00; font-size: 16px;}
+.foot-menu{ background:#007dc6; height:50px; text-align: center; overflow: hidden; min-width: 1200px; color: #ffffff;}
+.foot-menu a{ font-size: 14px; font-weight: bold; color: #ffffff; line-height: 50px; display: inline-block; margin: 0 5px;}
+.foot-menu ul{ width: 1100px; margin: 0 auto;}
+.foot-menu li{ float: left; width: 133px; height: 70px; position: relative;}
+.foot-menu li a{ color:#FFFFFF; display: block; width: 133px; height: 82px; position: absolute; top:-10px; left:0; z-index: 2; font-size: 20px; line-height: 82px; text-align: center;}
+.foot-menu li a:hover{ text-decoration: none; background-color: #2e0c0b;}
+
+.foot-top{ }
+.foot{
+	background-color: #e9e9e9;
+	height: 320px;
+}
+.foot-m{
+	position:relative;
+	width:1200px;
+	margin:0px auto;
+	height: 240px;
+	background-image: url("../img/foot.jpg"/*tpa=http://www.qdas168.com/img/foot.jpg*/);
+}
+.foot-m dl{}
+.foot-m dl dt{}
+.foot-m dl dd{}
+.foot-txt{
+	padding:105px 0px 20px 450px;
+	font-size:14px;
+	line-height:24px;
+	color:#000;
+	text-align: left;
+}
+.foot-txt a{ color:#000;}
+.foot-txt a:hover{ color:#000;}
+.foot-txt em{ font-family: arial; font-style:normal;}
+.foot-ewm{ position: absolute; z-index: 2; top:42px; right:20px; display: block;}
+.foot-ewm img{ display: block;}
+/**/
+.m-top{ margin-top: 18px;}
+.mt-20{ margin-top: 20px;}
+.p-l{ float:left; width: 384px;}
+.p-c{ float:left; width: 384px; margin-left: 24px;}
+.p-r{ float:right; width: 384px;}
+.t-list{ padding-top: 10px;}
+.b-title{ position: relative; border-bottom: solid 1px #6d6e71; height: 38px;}
+.b-title em{ display:block; float:left; font-size: 18px; font-weight: bold; color: #f15922; line-height: 38px; border-bottom: solid 1px #f15922; height: 38px; position: relative; z-index: 3; padding-right: 6px;}
+.b-title span{ display: block; float: left; font-size: 14px; font-weight: bold; color: #6d6e71; padding: 0px 0 0 6px; line-height: 39px;}
+.b-title a{ display: block; position: absolute; z-index: 4; margin-top: -4px; top:50%; right:0; background: url("../img/more.jpg"/*tpa=http://www.qdas168.com/img/more.jpg*/) no-repeat 0 0; width: 35px; height: 9px;}
+.b-con{ padding-top: 8px; line-height: 22px;}
+.b-con img{ display: block;}
+.indnew{ float:left; width: 360px;}
+.indnew .title{ height: 46px; background: url("../img/bt-news.png"/*tpa=http://www.qdas168.com/img/bt-news.png*/) no-repeat 0 0; position: relative;}
+.indnew .hot-img{ }
+.indnew .hot-img a{ display: block;}
+.indnew .hot-img img{ display: block; border: solid 5px #eacf7a;}
+.indnew .hot dl{ float: right; width: 286px;}
+.indnew .hot dl dt{ white-space:nowrap;overflow:hidden;text-overflow:ellipsis; font-size: 14px; font-weight: bold; line-height: 30px;}
+.indnew .hot dl dd{ line-height: 22px; font-size: 12px; color: #000000;}
+.indnew .hot dl dd.subtitle{ font-size: 14px; }
+.indnew .hot a{ color: #000000;}
+
+.indnew-m{}
+.indnew-m li{
+	height: 22px;
+	line-height: 22px;
+	position: relative;
+	padding-right: 100px;
+	position: relative;
+	background: url("../img/news-icon.gif"/*tpa=http://www.qdas168.com/img/news-icon.gif*/) no-repeat 0 center;
+}
+.indnew-m li a{
+	display: block;
+	line-height: 22px;
+	overflow: hidden;
+	padding-left: 12px;
+}
+.indnew-m li span{
+	text-align: right;
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top:0;
+	z-index: 2;
+	width: 90px;
+	overflow: hidden;
+}
+
+.gd{ position: relative; height: 290px; margin: 0 auto;}
+.gd-con{ height: 290px; margin: 0 auto; overflow: hidden;}
+.gd .btn-prev,.gd .btn-next{ display: block; width: 27px; height: 50px; position: absolute; display: block; top:50%; margin-top: -25px; cursor: pointer;}
+.gd .btn-prev{ background: url("../img/zs-prev.png"/*tpa=http://www.qdas168.com/img/zs-prev.png*/) no-repeat 0 0; left: -40px;}
+.gd .btn-next{ right: -40px; background: url("../img/zs-next.png"/*tpa=http://www.qdas168.com/img/zs-next.png*/) no-repeat 0 0;}
+.gd-con .imgbg{ display: inline-block; margin-right: 30px; line-height: 30px; text-align: center;}
+.gd-con .imgbg img{ display: block;}
+
+.cpxl{ background: url("../img/cpzs-bt.jpg"/*tpa=http://www.qdas168.com/img/cpzs-bt.jpg*/) no-repeat 0 0 #007dc6; height: 65px; overflow: hidden;}
+.cpxl .title{ width: 136px; float:left;}
+.cpxl .title em{ display: block; color: #FFFFFF; font-size: 18px; font-weight: bold; padding-top: 12px; line-height: 22px; text-align: center; }
+.cpxl .title span{ display: block; color: #FFFFFF; font-size: 14px; font-weight: bold; line-height: 20px; text-align: center; }
+.cpxl .b-list{ float:right; padding-top: 5px; text-align: right;}
+.cpxl .b-list a{ display: block; float: left; padding:10px 13px 0 13px; width: 65px; height: 44px; border-radius: 8px; background-color: #FFFFFF; font-size: 14px; font-weight: bold; line-height: 18px; text-align: center; margin-right: 10px;}
+.cpxl .b-list a:hover{ background-color: #f15922; color: #FFFFFF; text-decoration: none;}
+.cpxl-list{ padding-top: 15px;}
+.cpxl-list li{ float:left; margin-right: 20px; margin-bottom: 19px; width: 285px; height: 221px; position: relative;}
+.cpxl-list li .item-img img{ display: block;}
+.cpxl-list li .item-txt{ position: absolute; z-index: 2; bottom:0; left:0; width: 100%; height: 45px; text-align: center; font-size: 14px; font-weight: bold; color: #FFFFFF; line-height: 45px; background-color: #000000; background-color: rgba(0,0,0,.5);}
+.cpxl-list li .item-txt a{ display: block; line-height: 45px; color: #FFFFFF;}
+.cpxl-list li.end{ margin-right: 0;}
+.ad img{ display: block;}
+/**/
+.nymain{ }
+.nyleft{ float:left; width: 260px;}
+.nyright{ float:right; width: 916px;}
+.ny-title{ position: relative; border-bottom: solid 1px #6d6e71; height: 38px;}
+.ny-title em{ display:block; float:left; font-size: 14px; font-weight: bold; color: #f15922; line-height: 38px; border-bottom: solid 1px #f15922; height: 38px; position: relative; z-index: 3; padding:0 8px 0 18px;}
+.ny-title span{ display: block; float: left; font-size: 14px; font-weight: bold; color: #000000; padding: 0px 0 0 6px; line-height: 39px;}
+.ny-title a{ display: block; position: absolute; z-index: 4; margin-top: -4px; top:50%; right:0; background: url("../img/more.jpg"/*tpa=http://www.qdas168.com/img/more.jpg*/) no-repeat 0 0; width: 35px; height: 9px;}
+.left-logo{ background: url("../img/left-logo.jpg"/*tpa=http://www.qdas168.com/img/left-logo.jpg*/) no-repeat 0 0; height: 95px; margin: 9px 0 11px 0;}
+.left-menu{}
+.left-menu li{ padding-bottom: 4px;}
+.left-menu li a{ display: block; text-align: center; height: 43px; line-height: 43px; font-size: 14px; font-weight: bold; color: #000000; background: url("../img/left-menu-bg.jpg"/*tpa=http://www.qdas168.com/img/left-menu-bg.jpg*/) no-repeat left bottom;}
+.left-menu li a:hover{ color: #FFFFFF; background-position: left top; text-decoration: none;}
+.left-btn-cp{ margin-top: 12px;}
+.left-btn-cp a{ display: block; background: url("../img/left-btn-cp.jpg"/*tpa=http://www.qdas168.com/img/left-btn-cp.jpg*/) no-repeat 0 0; height: 93px;}
+.left-tel{
+	margin-top: 10px;
+	background: url("../img/left-tel.jpg"/*tpa=http://www.qdas168.com/img/left-tel.jpg*/) no-repeat 0 0;
+	height: 250px;
+}
+.left-lxwm{ background: url("../img/left-lxwm.jpg"/*tpa=http://www.qdas168.com/img/left-lxwm.jpg*/) no-repeat 0 0; height: 157px;}
+
+.zwbt{ }
+.nyad{ margin-top: 10px;}
+.nyad img{ display: block; max-width: 100%;}
+.nyzw-path{ text-align: left; height: 40px; line-height: 40px; color: #000000; font-weight: bold; font-size: 16px; border-bottom: solid 1px #bababa;}
+.nyzw-path .path-con{ padding-left: 25px;}
+.nyzw{ line-height:24px; padding:20px 18px; min-height: 300px; font-size: 14px; }
